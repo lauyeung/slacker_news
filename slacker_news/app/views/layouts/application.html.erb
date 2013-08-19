@@ -9,8 +9,8 @@
 <body>
 
 <nav>
-  <a href="#" >S</a>
-  <a href="#">Slacker News</a>
+  <a class="icon" href="#" >S</a>
+  <a class="slacker" href="#">Slacker News</a>
   <a href="#">new</a> |
   <a href="#">comments</a> |
   <a href="#">ask</a> |
@@ -19,7 +19,9 @@
   <a href="#">login</a>
 </nav>
 
-<%= yield %>
+<div id="main-content">
+  <%= yield %>
+</div>
 
 <footer>
   <a href="#">Lists</a> |

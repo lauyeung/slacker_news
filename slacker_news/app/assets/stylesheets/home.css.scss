@@ -1,3 +1,47 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  font-family: Verdana;
+}
+
+nav {
+  background-color: #FF6500;
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 10pt;   
+  }
+  .icon {
+    color: white;
+    border: 1px solid white;
+  }
+  .slacker {
+    font-weight: bold;
+  }
+  :last-child {
+    float: right;
+    }
+
+}
+
+
+
+#main-content {
+  background-color: #F6F5F0;
+}
+
+footer {
+  background-color: #F6F5F0;
+  color: #828282;
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 8pt;
+  }
+  form {
+    font-size: 10pt;
+    color: #828282;
+  }
+}
