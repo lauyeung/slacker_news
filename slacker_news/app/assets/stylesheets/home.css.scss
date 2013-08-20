@@ -45,6 +45,7 @@ nav {
 
   .article-container {
     padding-left: 30px;
+    margin-top: 9px;
   }
 
   .article {
@@ -100,6 +101,9 @@ nav {
   margin-top: 10px;
   padding-left: 15px;
   font-size: 12px;
+    a:hover {
+      text-decoration: underline;
+    }
 }
 
 .comments-level1 {
